@@ -7,6 +7,7 @@ public class Main {
         Point p2=new Point(23,30);
 
         Line line=new Line(p1,p2);
-        System.out.println("The Distance Between Two Points is -> "+line.Length());
+
+        System.out.println("This Distance between ("+p1.getX()+","+p1.getY()+") and ("+p2.getX()+","+p2.getY()+") is -> "+line.Length());
     }
 }
